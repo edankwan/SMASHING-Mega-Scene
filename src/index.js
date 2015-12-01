@@ -237,11 +237,8 @@ function _setDefault() {
     settings.isPhysicsActive = false;
 }
 
-var toggle = 1;
-
 function _render(dt) {
 
-    if(toggle^=1) {
     var ratio, ratio2, ratio3;
     _initAnimation = Math.min(_initAnimation + dt * 0.00015, 1);
 
@@ -309,10 +306,7 @@ function _render(dt) {
     _mouseMesh.scale.set(mouseRadius, mouseRadius, mouseRadius);
     _mouseMesh.position.copy(_ray.origin);
 
-
-    } else {
-        _renderer.render(_scene, _camera);
-    }
+    _renderer.render(_scene, _camera);
 }
 
 mobile.pass(function() {
