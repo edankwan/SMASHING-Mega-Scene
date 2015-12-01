@@ -1,8 +1,8 @@
 ## SMASHING Mega Scene
 
-![](https://raw.githubusercontent.com/edankwan/Constraint/master/app/images/screenshot.jpg)
+![](https://raw.githubusercontent.com/edankwan/SMASHING-Mega-Scene/master/app/images/screenshot.jpg)
 
-[Live demo](http://www.edankwan.com/experiments/constraint/) | [Video](https://www.youtube.com/watch?v=LCDBNS7FkrA)
+[Live demo](http://www.edankwan.com/experiments/smashing-mega-scene/) | [Video](https://www.youtube.com/watch?v=nR7uJdP_HRk)
 
 It uses **1024^2(Mega)** particles to form the 3d model and turns it into a **smashable** mesh.
 
